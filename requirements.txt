@@ -1,5 +1,4 @@
 pandas 
-mlflow==2.2.2
 notebook
 numpy
 scikit-learn
@@ -12,4 +11,6 @@ joblib
 types-PyYAML
 Flask
 Flask-Cors
--e .
+mlflow>=2.10
+pyarrow>=14
+-e . 
